@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Replace `blog_app` with your own database name
-mongoose.connect('mongodb://localhost/blog_app', {
+mongoose.connect('mongodb://localhost:27017/new-db', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
